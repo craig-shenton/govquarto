@@ -1,5 +1,5 @@
 title: govuk
-
-format:
-  html:
-    theme: govuk.scss
+contributes:
+  format:
+    html:
+      theme: govuk.scss

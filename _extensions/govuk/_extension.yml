@@ -1,6 +1,5 @@
-title: GOV.UK theme
-version: 0.0.1
-contributes:
-  formats:
-    html:
-      theme: govuk.scss
+title: govuk
+
+format:
+  html:
+    theme: govuk.scss

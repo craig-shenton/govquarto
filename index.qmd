@@ -1,0 +1,16 @@
+---
+title: "Welcome to the GOV.UK Quarto Example"
+format:
+  html:
+    theme: [default, govuk]
+---
+
+# Introduction
+
+This is a basic Quarto website styled with the [GOV.UK Design System](https://design-system.service.gov.uk/).
+
+## Features
+
+- GOV.UK branding
+- Quarto markdown syntax
+- Easy navigation and deployment

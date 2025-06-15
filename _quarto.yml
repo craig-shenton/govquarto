@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "GOV.UK Quarto Site"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+
+format:
+  html:
+    theme: [default, govuk]
+    toc: true
+
+execute:
+  freeze: auto

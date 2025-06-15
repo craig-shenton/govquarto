@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+  <head>
+    <meta charset="utf-8">
+    {{ meta }}
+    {{ title }}
+    {{ favicon }}
+    {{ stylesheet }}
+    {{ head }}
+  </head>
+  <body class="govuk-template__body govuk-body">
+    <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+
+    <div class="govuk-width-container">
+      <main class="govuk-main-wrapper" id="main-content" role="main">
+        {{ body }}
+      </main>
+    </div>
+
+    {{ after-body }}
+  </body>
+</html>

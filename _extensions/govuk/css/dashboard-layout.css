@@ -40,6 +40,14 @@
     --govuk-max-width-inset: 700px;
 }
 
+body::before {
+  content: "✅ GOV.UK THEME LOADED";
+  background: yellow;
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+}
+
 .govuk-width-container {
     margin-left: max(50px, calc(15px + env(safe-area-inset-left)));
     margin-right: max(100px, calc(15px + env(safe-area-inset-left)));

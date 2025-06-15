@@ -1,5 +1,7 @@
 title: govuk
+
 contributes:
   format:
     html:
       theme: govuk.scss
+      template: dashboard.html

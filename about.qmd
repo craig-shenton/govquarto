@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+# About This Site
+
+This example demonstrates how to use the `govquarto` theme extension to style Quarto documents using GOV.UK styles.
